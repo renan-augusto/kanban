@@ -1,0 +1,28 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.app-name {
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+}
+
+.has-gradient-text {
+    background: -webkit-linear-gradient(#13f7f4, #2af598);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.board-bar {
+    background: rgba(gray, 0.5);
+    padding: 8px 15px;
+}
+
+.board-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
