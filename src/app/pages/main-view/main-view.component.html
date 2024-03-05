@@ -13,5 +13,41 @@
             <p class="board-name">Board name</p>
         </div>
 
+        <div class="board-wrapper">
+            <div class="board-columns" cdkDropList #todoList="cdkDropList" [cdkDropListData]="todo" (cdkDropListDropped)="drop($event)">>
+
+                <div class="board-column">
+                    <div class="column-title">
+                        Ideas
+                    </div>
+
+                    <div class="tasks-container">
+                        <div class="task">
+                            This is something that i want to do!
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="board-column">
+                    <div class="column-title">
+                        Research
+                    </div>
+                </div>
+
+                <div class="board-column">
+                    <div class="column-title">
+                        Todo
+                    </div>
+                </div>
+
+                <div class="board-column">
+                    <div class="column-title">
+                        Done
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </div>
 </div>
